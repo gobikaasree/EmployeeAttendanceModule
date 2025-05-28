@@ -7,10 +7,10 @@
     <title>Employee Attendance</title>
     <style>
     body {
-        font-family: Arial, sans-serif;
-        background-color: #f9f9f9;
-        font-size: 18px; /* Base font size */
-    }
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    font-size: 18px; /* Base font size */
+}
 
     h2, h3 {
         color: #333;
@@ -70,13 +70,11 @@
     .btn:hover {
         background-color: #0056b3;
     }
-
     .table {
         border: 1px solid #ccc;
         width: 100%;
         font-size: 18px;
     }
-
     .table th {
         background-color: #f2f2f2;
         padding: 12px;
@@ -101,7 +99,6 @@
         text-decoration: underline;
     }
 </style>
-
 </head>
 <body>
     <form id="form1" runat="server">
